@@ -1,0 +1,216 @@
+@import "./variables";
+
+@media screen and (max-width: $screen-lg - 1px) {
+  .footer {
+    top: 154px;
+    &-text {
+      top: 156px;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: auto;
+    }
+    &-line {
+      top: 210px;
+      left: 43.9%;
+      transform: translateX(-50%);
+      margin: auto;
+    }
+    &-form {
+      width: 100%;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-left: 0;
+      margin: auto;
+      &-div {
+        width: 95%;
+        margin: auto;
+        &-input {
+          width: 95%;
+        }
+      }
+      &-btn {
+        width: 95%;
+      }
+    }
+  }
+  .page-nav-label.label-footer {
+    margin: auto;
+    top: 223px;
+    left: 48%;
+    transform: translateX(-50%);
+  }
+
+  .blog {
+    height: 686px;
+    &-img {
+      width: 100%;
+    }
+    &-content {
+      width: 100%;
+      left: 0px;
+      top: 343px;
+    }
+    &-footer {
+      width: 90%;
+      &-heart {
+        left: 97%;
+      }
+    }
+  }
+  .foto {
+    width: 100%;
+    top: 0px;
+    margin: 0 auto;
+    &-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-wrap: wrap;
+      position: relative;
+      top: 200px;
+    }
+    &.two {
+      width: 100%;
+      top: 150px;
+      margin: auto;
+      left: 0px;
+    }
+    &-div {
+      margin: auto;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &-text {
+      margin: auto;
+      left: 15px;
+    }
+    &-line {
+      margin: 0px;
+      left: 15px;
+    }
+    &-link {
+      margin: auto;
+      left: 15px;
+    }
+  }
+}
+@media screen and (max-width: 840px) {
+  .menu-button {
+    display: block;
+    position: absolute;
+    left: 20px;
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #b1acac;
+    border-radius: 5px;
+    background-color: rgba(254, 244, 244, 0.88);
+    cursor: pointer;
+  }
+
+  .page-nav {
+    position: fixed;
+    top: 28px;
+    left: -8px;
+    width: 100%;
+    background: #000000;
+    z-index: 1;
+  }
+
+  .menu {
+    visibility: hidden;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 41px;
+    background-color: #ffffff;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 0.4s;
+    height: auto;
+  }
+  .menu.active {
+    visibility: visible;
+    transform: scaleY(1);
+    top: 16px;
+    width: 115%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+  }
+  .link {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 625px) {
+  .page-nav-label.one {
+    display: none;
+  }
+}
+
+@media screen and (max-width: $screen-md - 1px) {
+  .blog {
+    &-footer {
+      width: 85%;
+      &-heart {
+        left: 95%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $screen-sm - 1px) {
+  .blog {
+    &-content {
+      padding: 5px;
+    }
+    &-cirlce {
+      top: 0px;
+      left: 0px;
+    }
+    &-title {
+      top: 35px;
+      left: 4px;
+    }
+    &-text {
+      top: 108px;
+      left: 4px;
+      width: 241px;
+    }
+    &-text.hack {
+      top: 170px;
+    }
+    &-footer {
+      bottom: 16px;
+      left: 4px;
+    }
+  }
+  .baner {
+    width: 261px;
+    height: 56px;
+    top: 81px;
+    &-title {
+      font-size: 1.0625rem;
+    }
+  }
+  .media-querry-foto {
+    position: absolute;
+    top: 259px;
+    left: 19%;
+    z-index: 100;
+    &.two {
+      top: 259px;
+      left: 19%;
+      z-index: 100;
+    }
+  }
+  .footer {
+    top: 536px;
+    margin-bottom: 60px;
+  }
+  .html {
+    overflow-x: hidden;
+  }
+}

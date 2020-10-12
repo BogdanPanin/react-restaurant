@@ -1,0 +1,92 @@
+.footer {
+  height: 230px;
+  width: 100%;
+  position: relative;
+  top: -63px;
+  &-text {
+    position: absolute;
+    margin: 48px 0px 13px calc((100% - 980px) * 0.5);
+    left: 55px;
+    &-span {
+      letter-spacing: 1.7px;
+      color: #000000;
+      text-transform: uppercase;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+    }
+  }
+  &-line {
+    margin: 0px 0px 19px calc((100% - 980px) * 0.5);
+    left: 55px;
+    top: 105px;
+  }
+  &-form {
+    height: auto;
+    width: 548px;
+    position: relative;
+    border-radius: 0px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 1);
+    border: solid rgba(227, 227, 227, 1) 0px;
+    margin: 31px 0px 17px calc((100% - 980px) * 0.5);
+    left: 419px;
+    &-div {
+      top: 31px;
+      width: 529px;
+      height: 39px;
+      position: absolute;
+      margin: 16px 0px 7px 0;
+      left: 12px;
+      &-input {
+        width: 529px;
+        height: 39px;
+        padding-left: 21px;
+        border-width: 2px;
+        background-color: rgba(255, 255, 255, 1);
+        border-style: solid;
+        border-color: rgba(255, 64, 64, 1);
+        text-align: left;
+        line-height: 1.4em;
+        font-size: 0.875rem;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+      }
+    }
+    &-btn {
+      cursor: pointer;
+      height: 39px;
+      width: 529px;
+      margin-top: 7px;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 1);
+      border: solid rgba(255, 255, 255, 1) 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 0.875rem;
+      font-weight: 400;
+      font-family: "Open Sans", sans-serif;
+      &:hover {
+        transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+        background-color: rgba(230, 230, 230, 1);
+        border-color: rgba(255, 255, 255, 1);
+        color: #000000;
+      }
+    }
+  }
+}
+.footer-menu {
+  width: 107px;
+  height: 20px;
+}
+.page-nav-label.label-footer {
+  margin: 0px 0px 28px calc((100% - 980px) * 0.5);
+  left: 55px;
+  top: 121px;
+  right: unset;
+}
+.menu-item-label.label-footer {
+  width: 20px;
+  height: 20px;
+}
