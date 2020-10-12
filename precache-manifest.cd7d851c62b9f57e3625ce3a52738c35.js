@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e275a9ee21f8d56009b4d981d8d995c7",
+    "revision": "4460f32700bb220082e611849c27beb5",
     "url": "/react-restaurant/index.html"
   },
   {
-    "revision": "1b8722d4e2e378dce373",
+    "revision": "d676122de8bd50b44c60",
     "url": "/react-restaurant/static/css/main.43918f37.chunk.css"
   },
   {
-    "revision": "4a6444ee60ddf49d6439",
-    "url": "/react-restaurant/static/js/2.0a8f58d7.chunk.js"
+    "revision": "1a1871db4896cf509521",
+    "url": "/react-restaurant/static/js/2.382791e2.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-restaurant/static/js/2.0a8f58d7.chunk.js.LICENSE.txt"
+    "url": "/react-restaurant/static/js/2.382791e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b8722d4e2e378dce373",
-    "url": "/react-restaurant/static/js/main.938d91b2.chunk.js"
+    "revision": "d676122de8bd50b44c60",
+    "url": "/react-restaurant/static/js/main.26d9b4c6.chunk.js"
   },
   {
     "revision": "1d0fb7269c5d59fe14dc",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-restaurant/static/media/book.730f9cfc.webp"
   },
   {
+    "revision": "4b8f06512a66c644d68b68ef6a78e4e0",
+    "url": "/react-restaurant/static/media/facebook-footer.4b8f0651.webp"
+  },
+  {
     "revision": "82064c0aa2d39b0894cc00fca0efd40a",
     "url": "/react-restaurant/static/media/facebook.82064c0a.webp"
   },
@@ -56,12 +60,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-restaurant/static/media/gerl.94e9408b.webp"
   },
   {
+    "revision": "d1ca82b63b285a6721bf516d911b2635",
+    "url": "/react-restaurant/static/media/instagram-footer.d1ca82b6.webp"
+  },
+  {
     "revision": "27d7195ce8f2d9bc6b8995164d799d58",
     "url": "/react-restaurant/static/media/instagram.27d7195c.webp"
   },
   {
+    "revision": "e24d183de8b1981b07eaa55951024f67",
+    "url": "/react-restaurant/static/media/picture-footer.e24d183d.webp"
+  },
+  {
     "revision": "18182356894a579b94279e061ddeb232",
     "url": "/react-restaurant/static/media/picture.18182356.webp"
+  },
+  {
+    "revision": "f5378e6bb0a2110d33825fecfb6eab3b",
+    "url": "/react-restaurant/static/media/twiter-footer.f5378e6b.webp"
   },
   {
     "revision": "d3696384d6d1fa6fa8c3feee7c606d1a",

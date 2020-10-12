@@ -1,29 +1,33 @@
 {
   "files": {
     "main.css": "/react-restaurant/static/css/main.43918f37.chunk.css",
-    "main.js": "/react-restaurant/static/js/main.938d91b2.chunk.js",
-    "main.js.map": "/react-restaurant/static/js/main.938d91b2.chunk.js.map",
+    "main.js": "/react-restaurant/static/js/main.26d9b4c6.chunk.js",
+    "main.js.map": "/react-restaurant/static/js/main.26d9b4c6.chunk.js.map",
     "runtime-main.js": "/react-restaurant/static/js/runtime-main.ef223466.js",
     "runtime-main.js.map": "/react-restaurant/static/js/runtime-main.ef223466.js.map",
-    "static/js/2.0a8f58d7.chunk.js": "/react-restaurant/static/js/2.0a8f58d7.chunk.js",
-    "static/js/2.0a8f58d7.chunk.js.map": "/react-restaurant/static/js/2.0a8f58d7.chunk.js.map",
+    "static/js/2.382791e2.chunk.js": "/react-restaurant/static/js/2.382791e2.chunk.js",
+    "static/js/2.382791e2.chunk.js.map": "/react-restaurant/static/js/2.382791e2.chunk.js.map",
     "index.html": "/react-restaurant/index.html",
-    "precache-manifest.f211a4b7102e78321a8ad59d0be9e101.js": "/react-restaurant/precache-manifest.f211a4b7102e78321a8ad59d0be9e101.js",
+    "precache-manifest.cd7d851c62b9f57e3625ce3a52738c35.js": "/react-restaurant/precache-manifest.cd7d851c62b9f57e3625ce3a52738c35.js",
     "service-worker.js": "/react-restaurant/service-worker.js",
     "static/css/main.43918f37.chunk.css.map": "/react-restaurant/static/css/main.43918f37.chunk.css.map",
-    "static/js/2.0a8f58d7.chunk.js.LICENSE.txt": "/react-restaurant/static/js/2.0a8f58d7.chunk.js.LICENSE.txt",
+    "static/js/2.382791e2.chunk.js.LICENSE.txt": "/react-restaurant/static/js/2.382791e2.chunk.js.LICENSE.txt",
     "static/media/restotan.scss": "/react-restaurant/static/media/blogImg4.f45329d4.png",
     "static/media/book.webp": "/react-restaurant/static/media/book.730f9cfc.webp",
+    "static/media/facebook-footer.webp": "/react-restaurant/static/media/facebook-footer.4b8f0651.webp",
     "static/media/facebook.webp": "/react-restaurant/static/media/facebook.82064c0a.webp",
     "static/media/gerl.webp": "/react-restaurant/static/media/gerl.94e9408b.webp",
+    "static/media/instagram-footer.webp": "/react-restaurant/static/media/instagram-footer.d1ca82b6.webp",
     "static/media/instagram.webp": "/react-restaurant/static/media/instagram.27d7195c.webp",
+    "static/media/picture-footer.webp": "/react-restaurant/static/media/picture-footer.e24d183d.webp",
     "static/media/picture.webp": "/react-restaurant/static/media/picture.18182356.webp",
+    "static/media/twiter-footer.webp": "/react-restaurant/static/media/twiter-footer.f5378e6b.webp",
     "static/media/twiter.webp": "/react-restaurant/static/media/twiter.d3696384.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.ef223466.js",
-    "static/js/2.0a8f58d7.chunk.js",
+    "static/js/2.382791e2.chunk.js",
     "static/css/main.43918f37.chunk.css",
-    "static/js/main.938d91b2.chunk.js"
+    "static/js/main.26d9b4c6.chunk.js"
   ]
 }
