@@ -5,25 +5,38 @@ import twitter from "../assets/images/twiter.webp";
 import instagram from "../assets/images/instagram.webp";
 
 function Header() {
+  let [visible, setVisible] = React.useState(false);
+  const span = ["menu "];
+  let isOpen = () => {
+    setVisible(!visible);
+    console.log("true");
+  };
+  if (visible == true) {
+    span.push(" active");
+  }
   return (
     <header className="page-header">
       <div className="baner">
         <h1 className="baner-title">СОЛЬ И ПЕРЕЦ</h1>
       </div>
       <nav className="page-nav">
-        <button id="btn" className="menu-button"></button>
-        <ul id="menu" className="menu">
-          <li className="menu-item">
+        <button
+          id="btn"
+          className="menu-button"
+          onClick={() => isOpen()}
+        ></button>
+        <ul id="menu" className={span}>
+          <li className="menu-item media">
             <a href="/" className="link link-main">
               Главная
             </a>
           </li>
-          <li className="menu-item">
+          <li className="menu-item media">
             <a href="/" className="link">
               Блог
             </a>
           </li>
-          <li className="menu-item">
+          <li className="menu-item media">
             <a href="/" className="link">
               Обо мне
             </a>

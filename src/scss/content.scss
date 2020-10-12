@@ -48,6 +48,12 @@
   }
   &-item {
     padding: 0 4px;
+    &.media {
+      text-align: center;
+    }
+    &:nth-child(1) {
+      margin-top: 60px;
+    }
     &-label {
       margin-right: 9px;
       width: 18px;

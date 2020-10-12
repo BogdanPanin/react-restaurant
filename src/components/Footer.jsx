@@ -1,9 +1,9 @@
 import React from "react";
 import Form from "./Form";
-import facebook from "../assets/images/facebook.webp";
-import picture from "../assets/images/picture.webp";
-import twitter from "../assets/images/twiter.webp";
-import instagram from "../assets/images/instagram.webp";
+import facebook from "../assets/images/facebook-footer.webp";
+import picture from "../assets/images/picture-footer.webp";
+import twitter from "../assets/images/twiter-footer.webp";
+import instagram from "../assets/images/instagram-footer.webp";
 
 function Footer() {
   return (
